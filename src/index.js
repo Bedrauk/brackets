@@ -1,4 +1,4 @@
-module.export = function check(str, bracketsConfig) {
+module.exports = function check(str, bracketsConfig) {
   const bracketsMap = Object.fromEntries(bracketsConfig);
   
 
